@@ -41,7 +41,7 @@ streamlit run streamlit_app.py
 ```
 
 ## Estructura del proyecto {#struct}
-
+```
 EduTrack/
 │
 ├── config/             # Archivos de configuración (YAML)
@@ -79,6 +79,7 @@ EduTrack/
 ├── PLANNING.md         # Planeación del proyecto
 ├── TASK.md             # Tareas y pendientes
 └── .cursorrules        # Reglas de Cursor
+```
 
 ## Configuración {#conf}
 Elementos referentes a rutas de archivo, ubicaciónes y versión de la aplicación se pueden configurar en el archivo 
