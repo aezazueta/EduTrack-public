@@ -1,0 +1,20 @@
+---
+description: 
+globs: *.py,*.ipynb
+alwaysApply: false
+---
+## name: Entrenamiento de Modelos
+
+## description: Asegura que el código de entrenamiento sea claro, modular y reproducible.
+
+## appliesTo: ["*.py", "*.ipynb"]
+
+## rules:
+- Separa los pasos del pipeline: split, escalado, enternamiento, evaluación.
+- Usa `Pipeline` y `ColumnTransformer` cuando sea posible (scikit-learn).
+- Define hiperparámetros como variables o diccionarios para tunning posterior.
+- Usa `GridSearchCV` o `RandomizedSearchCV` con validación cruzada.
+- Registra métricas clave (`accuracy`, `f1`, `ROC-AUC`, etc.) con `logging.info()`.
+- Guarda el modelo entrenado con versión (`joblib.dump(model, 'modelo_v1.pkt')`).
+
+- Documenta con docstrings qué datos espera y qué devuelve cada función.

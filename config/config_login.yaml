@@ -1,0 +1,9 @@
+credentials:
+  usernames:
+    admin:
+      name: admin
+      password: 'cosa'
+cookie:
+  expiry_days: 1
+  key: cookies
+  name: edutrack_cookies

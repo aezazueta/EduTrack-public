@@ -1,0 +1,20 @@
+---
+description: 
+globs: *.py,*.ipynb
+alwaysApply: false
+---
+## name: Preprocesamiento de datos limpio
+
+## description: Mejora la calidad del código de procesamiento de datos, asegurando claridad, validación, trazabilidad y eficiencia.
+
+## appliesTo: ["*.py", "*.ipynb"]
+
+## rules:
+- Carga los datos usando rutas relativas o variables de configuración
+- Documenta claramente cada transformación (limpieza, imputación, normalización)
+- Usa `pandas` eficientemente: evita `apply()` cuando puede usarse vectorización.
+- Siempre valida formas (`.shape`) y tipos de columnas antes y después del procesamiento.
+- Registra cada paso relevante con `logging.info()`.
+- Separa el preprocesamiento en funciones reutilizables.
+
+- Usa constantes o configuraciones externas para columnas clave, valores por defecto, etc.

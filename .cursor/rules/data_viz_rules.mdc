@@ -1,0 +1,19 @@
+---
+description: 
+globs: *.py,*.ipynb
+alwaysApply: false
+---
+## name: Visualización de Datos
+
+## description: Establece buenas prácticas para visualizaciones limpias, informativas y reproducibles.
+
+## appliesTo: ["*.py", "*.ipynb"]
+
+## rules:
+- Cada gráfica debe tener título, ejes etiquetados y leyenda si aplica.
+- Usa `seaborn` o `matplotlib` de forma declarativa y reproducible.
+- No usar colores aleatorios. Define una paleta coherente.
+- Usa `tight_layout()` o `figsize` para evitar cortes visuales.
+- Si es exploración visual repetitiva, encapsúlalo en funciones (`def plot_distribution(df, col): ...`).
+
+- guarda las gráficas con nombre claro (`plt.savefig("Histograma_edad.png")`).

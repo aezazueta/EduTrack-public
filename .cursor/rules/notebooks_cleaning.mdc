@@ -1,0 +1,20 @@
+---
+description: 
+globs: *.ipynb
+alwaysApply: false
+---
+## name: Buenas prácticas en Notebooks
+
+## description: Mantén notebooks limpios, explicativos, reproducibles y sin ruido innecesario.
+
+## appliesTo: ["*.ipynb"]
+
+## rules:
+- Cada notebook debe comenzar con una breve explicación del propósito (en Markdown).
+- Evita celdas con más de 40 líneas de código.
+- Usa encabezados (##) para dividir secciones: Carga, Limpieza, Modelado, Evaluación, Conclusiones.
+- No dejes celdas con errores ni salidas parciales.
+- No uses `print()` para debugging, usa `logging` o comentarios explicativos.
+- Borra salidas antes de versionar (`Cell -> All Output -> Clear`).
+- Usa `random_state` fijo en todos los procesos aleatorios para reproducibilidad.
+

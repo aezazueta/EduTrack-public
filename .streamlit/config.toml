@@ -1,0 +1,60 @@
+[browser]
+serverAddress = "localhost"
+gatherUsageStats = true
+
+[server]
+enableStaticServing = true
+# folderWatchList = []
+# folderWatchBlacklist = []
+fileWatcherType = "auto"
+headless = false
+runOnSave = false
+port = 8501                         # Default = 8501
+baseUrlPath = ""
+enableCORS = true
+enableXsrfProtection = true
+maxUploadSize = 200                 # Megabytes
+maxMessageSize = 200                # Megabytes
+disconnectedSessionTTL = 120        # Seconds
+
+
+[client]
+showErrorDetails = "stacktrace"     # "full" - "stacktrace" - "type" - "none" - 
+toolbarMode = "viewer"              #"auto" - "developer" - "viewer" - "minimal"
+
+[runner]
+magicEnabled = true
+
+
+[theme]
+base = "dark"
+font = "monserrat"
+primaryColor = "#009900"
+backgroundColor = "#122748"
+secondaryBackgroundColor = "#807E82"
+textColor = "#FFFFFF"
+linkColor = "#009900"
+# borderColor =
+# buttonRadius =                   # "none" - "small" - "medium" - "large" - "full"
+# dataframeBorderColor = 
+
+[[theme.fontFaces]]
+family="monserrat"
+url="app/static/fonts/Monserrat-Regular.ttf"
+style="normal"
+weight=400
+[[theme.fontFaces]]
+family="monserrat"
+url="app/static/fonts/Monserrat-Bold.ttf"
+style="normal"
+weight=700
+[[theme.fontFaces]]
+family="monserrat"
+url="app/static/fonts/Monserrat-Italic.ttf"
+style="italic"
+weight=400
+[[theme.fontFaces]]
+family="monserrat"
+url="app/static/fonts/Monserrat-BoldItalic.ttf"
+style="italic"
+weight=700

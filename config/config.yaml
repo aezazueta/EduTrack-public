@@ -1,0 +1,16 @@
+input_path: "./data/raw/"
+output_path: "./data/processed/"
+version: "0.8"
+
+files:
+  dalumn: "./data/raw/dalumn.csv"
+  dcalum: "./data/raw/dcalum.csv"
+  dkarde: "./data/raw/dkarde.csv"
+  ubicaciones: "./data/raw/ubicaciones.csv"
+  escuelas: "./data/raw/descue.csv"
+  plan_estudio: "./data/raw/dplane.csv"
+  especialidad: "./data/raw/despec.csv"
+  test_data: "./data/processed/df_preprocessed.csv"
+  model: "./src/models/modelo_abandono.joblib"
+  images: "./static/imgs/"
+  config_login: './config/config_login.yaml'

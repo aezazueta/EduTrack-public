@@ -1,0 +1,19 @@
+gitignore
+
+#ignorar datasets reales
+data/raw/dalumn.csv
+data/raw/dcalumn.csv
+data/raw/descue.csv
+data/raw/despec.csv
+data/raw/dkarde.csv
+data/raw/dplane.csv
+data/raw/ubicaciones.csv
+
+#ignorar modelo real
+src/models/modelo_abandono.joblib
+
+# Archivos temporales y del sistema
+__pycache__/
+
+#Carpeta del virtualenv
+.venv/
