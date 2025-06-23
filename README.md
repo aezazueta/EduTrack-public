@@ -2,24 +2,27 @@
 Sistema para el seguimiento, análisis y predcición de abandono escolar universitario untilizando Streamlit y machine learning con python.
 
 ## Tabla de contenidos
-   * [Descripción](#desc)
-   * [Características](#caract)
-   * [Instalación y uso](#inst_use)
-   * [Estructura del proyecto](#struct)
-   * [Configuración](#conf)
-   * [Licencia](#licence)
-   * [Contacto](#priv_conf)
+- [EduTrack](#edutrack)
+  - [Tabla de contenidos](#tabla-de-contenidos)
+  - [Descripción](#descripción)
+  - [Características](#características)
+  - [Instalación y uso](#instalación-y-uso)
+  - [Estructura del proyecto](#estructura-del-proyecto)
+  - [Configuración](#configuración)
+  - [Licencia](#licencia)
+  - [Privacidad y Confidencialidad](#privacidad-y-confidencialidad)
+  - [Contacto](#contacto)
   
-## Descripción {#desc}
+## Descripción
 EduTrack es una webapp desarrollada en python que permite analizar datos escolares, visualizar datos relevantes y predecir el riesgo de abandono escolar. Utiliza el framework Streamlit para la interfaz web y un modelo de machine learning basado en el algoritmo de arboles de desición.
 
-## Características {#caract}
+## Características
   * Carga y procesamiento de datos escolares.
   * Predicción de riesgo de abandono escolar incluida su probabilidad de ocurrencia.
   * Subsistema de registro de eventos (logs) para seguimiento de eventos ya sea por monitoreo o por depuración.
   * Configuración de parámetros y rutas de acceso mediante archivos YAML.
 
-## Instalación y uso {#inst_use}
+## Instalación y uso
 1.- Clona el repositorio:
 ```
 git clone https://github.com/aezazueta/EduTrack.git 
@@ -40,7 +43,7 @@ pip install -r requirements.txt
 streamlit run streamlit_app.py
 ```
 
-## Estructura del proyecto {#struct}
+## Estructura del proyecto
 ```
 EduTrack/
 │
@@ -81,7 +84,7 @@ EduTrack/
 └── .cursorrules        # Reglas de Cursor
 ```
 
-## Configuración {#conf}
+## Configuración
 Elementos referentes a rutas de archivo, ubicaciónes y versión de la aplicación se pueden configurar en el archivo 
 ``` .\config\config.yaml```
 El control de usuarios y cookies se configuran en 
@@ -89,10 +92,10 @@ El control de usuarios y cookies se configuran en
 Configuraciónes acera de la apariencia de la interfaz, aspectos del servidor, navegador y del cliente se modifican en 
 ```.\.steramlit\config.toml```
 
-## Licencia {#licence}
+## Licencia
 Este proyecto está licenciado bajo la MIT License. Los datos reales utilizados en la veersión institucional no se incluyen en este repositorio.
 
-## Privacidad y Confidencialidad {#priv_conf}
+## Privacidad y Confidencialidad
 
 Este proyecto fue desarrollado originalmente con datos reales en una institución educativa universitaria adscrita al Tecnológico Nacional de México. No obstante, **todos los datos incluidos en este repositorio han sido generados sintéticamente** y **no representan a ningún estudiante real**.
 
